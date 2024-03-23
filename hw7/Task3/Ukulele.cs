@@ -1,0 +1,27 @@
+﻿namespace hw7.Task3
+{
+    internal class Ukulele : MusicalInstrumentBase
+    {
+        public Ukulele() : base() { }
+
+        public override void Sound()
+        {
+            Console.WriteLine($"{Name} makes a sound.");
+        }
+
+        public override void Show()
+        {
+            Console.WriteLine($"\nName: {Name}");
+        }
+
+        public override void Desc()
+        {
+            Console.WriteLine($"Description: {Description}");
+        }
+
+        public override void HistoryInfo()
+        {
+            Console.WriteLine($"History: {History}");
+        }
+    }
+}
